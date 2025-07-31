@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #d8e2f3, #b0c4de); /* Adjusted gradient for better visibility */
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the body takes up the full viewport height */
+    overflow-x: hidden; /* Prevent horizontal scrolling issues */
+}
+
+/* Navbar styles */
+.navbar {
+    background: linear-gradient(to right, #4b0082, #8a2be2); /* Enhanced gradient for a stronger effect */
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    margin: 0 1rem;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #ffdead;
+}
+
+/* Footer styles */
+.footer {
+    background: linear-gradient(to right, #8a2be2, #4b0082); /* Adjusted gradient to match navbar */
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+    margin-top: auto; /* Push the footer to the bottom */
+    position: relative; /* Ensure the footer stays within the flow of the document */
+    bottom: 0;
+    width: 100%; /* Ensure the footer spans the full width of the viewport */
+}
+
+.footer a {
+    color: #ffdead;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer p {
+    text-align: center; /* Center-align footer text */
+}
