@@ -42,6 +42,25 @@ body {
     color: #ffdead;
 }
 
+.content-section {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+    color: #6a5acd;
+    margin-bottom: 1rem;
+}
+
+.section-description {
+    line-height: 1.6;
+    text-align: justify;
+}
+
+
 /* Footer styles */
 .footer {
     background: linear-gradient(to right, #8a2be2, #4b0082); /* Adjusted gradient to match navbar */
